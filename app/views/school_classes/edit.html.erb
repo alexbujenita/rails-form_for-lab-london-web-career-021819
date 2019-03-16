@@ -1,0 +1,11 @@
+<%= form_for(@cla) do |f| %>
+
+  <%= f.label("Name") %><br>
+  <%= f.text_field :title %><br>
+
+  <%= f.label "Room No" %><br>
+  <%= f.number_field :room_number %><br>
+
+  <%= f.submit "Update School class" %>
+
+<% end %>
